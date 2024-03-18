@@ -145,4 +145,4 @@ The diagram looks like this:
 
 <!-- ![database schema](Database_schema.png) -->
 
-<img src="../Database_schema.png" alt="database schema" width="600" height="400">
+<img src="../Database_schema.png" alt="database schema" width="600" height="300">
