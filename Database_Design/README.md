@@ -135,4 +135,4 @@ The diagram looks like this:
     })
     db.transactions.createIndex({ transactionId: 1 })
     ```
-
+![database schema](Database_schema.png)
