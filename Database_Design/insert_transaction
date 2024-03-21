@@ -1,1 +1,1 @@
-db.products.insertOne({ name: "Product 1", description: "Description 1", price: 99.99 });
+db.transactions.insertOne({ user_id: ObjectId("6091282c4d8e6b240f94d46a"), product_id: ObjectId("6091282c4d8e6b240f94d46b"), quantity: 1, total_price: 99.99 });
