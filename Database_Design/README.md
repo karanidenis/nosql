@@ -13,10 +13,15 @@
 The database should be designed to support the following operations:
 
 1. Add a new user to the database.
+- Done using insert_user and insert_many_users files
 2. Add a new product to the database.
+- Done using insert_product and Insert_many_products files
 3. Record a new transaction in the database.
+- Done using insert_transaction and Insert_many_transactions files
 4. Retrieve all products in the database.
+- Done using retrieve_all_products file
 5. Retrieve all transactions for a given user.
+- Done using transactions_for_user file
 6. Retrieve all transactions for a given product.
 7. Find the top 5 most popular products in the database.
 

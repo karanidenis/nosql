@@ -1,0 +1,2 @@
+// find transaction using userId
+db.transactions.find({ user_id: ObjectId("65fc18ec00eeea9c1616bec5") });
