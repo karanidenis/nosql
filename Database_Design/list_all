@@ -1,2 +1,4 @@
 // list everything
-db.techshop.find()
+db.users.find();
+db.products.find();
+db.transactions.find();
