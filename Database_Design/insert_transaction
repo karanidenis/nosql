@@ -1,1 +1,6 @@
-db.transactions.insertOne({ user_id: ObjectId("6091282c4d8e6b240f94d46a"), product_id: ObjectId("6091282c4d8e6b240f94d46b"), quantity: 1, total_price: 99.99 });
+db.transactions.insertOne({
+  user_id: ObjectId("65fc16ca199500a85d557234"),
+  product_id: ObjectId("65fc16f4542eb3fb8f14c06b"),
+  quantity: 1,
+  total_price: 99.99,
+});
