@@ -1,0 +1,3 @@
+// insert user
+db.users.insertOne({ name: "John Doe", 
+email: "john@example.com", password: "password123" });
