@@ -1,0 +1,6 @@
+// insert many users
+db.users.insertMany([
+  { name: "Denis", email: "denis@example.com", password: "password1" },
+  { name: "karani", email: "karani@example.com", password: "password2" },
+  { name: "waweru", email: "waweru@example.com", password: "password3" },
+]);
