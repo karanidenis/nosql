@@ -1,0 +1,23 @@
+// transaction collection
+
+db.createcollection("transactions", {
+  validator: {
+    $jsonSchema: {
+      bsonType: "object",
+      required: ["user", "product", "date"],
+      properties: {
+        user: {
+          bsontype: "objectId",
+          description: "must be an objectid and is required",
+        },
+        product: {
+          bsonType: "objectId",
+          description: "must be an objectId and is required",
+        },
+        date: "date",
+        description: "must be a date and is required",
+      },
+    },
+  },
+});
+db.transactions.createIndex({ transactionId : 1})
