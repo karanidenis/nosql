@@ -4,7 +4,7 @@ import pymongo
 myclient = pymongo.MongoClient("mongodb://localhost:27017/")
 
 # Create a new database called "user"
-db = myclient['user']
+db = myclient['techshop']
 
 # Print a confirmation message
 print("Database 'user' created successfully.")
