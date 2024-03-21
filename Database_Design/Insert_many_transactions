@@ -1,20 +1,20 @@
 // insert many transactions
 db.transactions.insertMany([
   {
-    user_id: ObjectId("6091282c4d8e6b240f94d46a"),
-    product_id: ObjectId("6091282c4d8e6b240f94d46b"),
+    user_id: ObjectId("65fc18ec00eeea9c1616bec4"),
+    product_id: ObjectId("65fc193236ecda9ef002d785"),
     quantity: 1,
     total_price: 99.99,
   },
   {
-    user_id: ObjectId("6091282c4d8e6b240f94d46c"),
-    product_id: ObjectId("6091282c4d8e6b240f94d46d"),
+    user_id: ObjectId("65fc18ec00eeea9c1616bec5"),
+    product_id: ObjectId("65fc193236ecda9ef002d786"),
     quantity: 2,
     total_price: 299.98,
   },
   {
-    user_id: ObjectId("6091282c4d8e6b240f94d46e"),
-    product_id: ObjectId("6091282c4d8e6b240f94d46f"),
+    user_id: ObjectId("65fc18ec00eeea9c1616bec6"),
+    product_id: ObjectId("65fc193236ecda9ef002d787"),
     quantity: 1,
     total_price: 199.99,
   },
