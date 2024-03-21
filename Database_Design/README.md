@@ -23,7 +23,9 @@ The database should be designed to support the following operations:
 5. Retrieve all transactions for a given user.
 - Done using transactions_for_user file
 6. Retrieve all transactions for a given product.
+- Done using transactions_for_product file
 7. Find the top 5 most popular products in the database.
+- Done using top_5_products file
 
 You should also implement the following constraints:
 

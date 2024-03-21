@@ -1,0 +1,2 @@
+// find transaction using productId
+db.transactions.find({ product_id: ObjectId("65fc16f4542eb3fb8f14c06b") });
