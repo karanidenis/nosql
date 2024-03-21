@@ -1,6 +1,6 @@
 // transaction collection
 
-db.createcollection("transactions", {
+db.createCollection("transactions", {
   validator: {
     $jsonSchema: {
       bsonType: "object",

@@ -1,6 +1,6 @@
 // collection products
 
-db.createcollection("products", {
+db.createCollection("products", {
   validator: {
     $jsonSchema: {
       bsonType: "object",
